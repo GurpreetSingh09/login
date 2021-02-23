@@ -41,6 +41,7 @@ function Login(props) {
       setName("");
       setApples("");
       setAgree("");
+      document.getElementById("submitForm").reset();
     }
   };
 
